@@ -1,0 +1,66 @@
+.header{
+    background-color: #1b3675;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+}
+ 
+.header-conteudo{
+    max-width: 1024px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin: 0 auto;
+}
+ 
+.header-logo-box{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+ 
+.logo{
+    width: 72px;
+    height: 72px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.slogan {
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 15px 10px 15px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.header-link:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.espacamento{
+    padding-top: 20px;
+}
+.segredo{
+    color: #0d6efd;
+}
+
+@media (max-width: 600px) {
+    .topo-nome-empresa{
+        display: none;
+    }
+
+    .lista-sobre-aparelho {
+        flex-direction: column;
+    }
+}
